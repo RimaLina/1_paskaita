@@ -13,6 +13,7 @@ public class MyMainApp {
         ResultSet resultSet = JdbsUtils.getResultSet(connection,"select * from students");
         if (resultSet!=null){
             try{while (resultSet.next())
+
                {
                     StringBuilder sb = new StringBuilder();
                     sb.append("id=").append(resultSet.getInt("id")).
