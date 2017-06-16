@@ -14,6 +14,7 @@ public class MyMainApp {
         if (resultSet!=null){
             try{while (resultSet.next())
 
+
                {
                     StringBuilder sb = new StringBuilder();
                     sb.append("id=").append(resultSet.getInt("id")).
